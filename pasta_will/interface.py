@@ -12,7 +12,11 @@ def listar():
 def ajuda():
     print("esse é o programa interface.py")
 
-comando = sys.argv[1]
+try:
+  comando = sys.argv[1]
+except IndexError:
+  ajuda()
+  sys.exit(0)
 
 if comando == 'listar':
     listar()
