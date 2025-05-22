@@ -96,7 +96,7 @@ SINTAXE
 agenda.py <comando>
 
 comandos disponíveis:
-ajuda       - mostra esta ajuda
+ajuda       - mostra esta tela
 listar      - lista todos os contatos
 cadastrar   - adiciona um novo contato
 consultar   - consulta um contato pelo e-mail
