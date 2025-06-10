@@ -103,8 +103,8 @@ while heroi.vida > 0 and monstro.vida > 0:
     if monstro.vida > 0 and heroi.vida > 0:
         print("\n--- TURNO DO MONSTRO ---")
         # Lógica de decisão do monstro:
-        # Se a vida do monstro for menor ou igual a 25 E ele ainda não tiver usado o aumento de força
-        if monstro.vida <= 25 and not monstro_ja_fortalecido:
+        # Se a vida do monstro for menor ou igual a 30 E ele ainda não tiver usado o aumento de força
+        if monstro.vida <= 30 and not monstro_ja_fortalecido:
             print(f"{monstro.nome} sente a derrota se aproximando e Ruge! Sua força aumenta!")
             monstro.forca += 10 # Aumenta a força do monstro em 10 (você pode ajustar este valor)
             monstro_ja_fortalecido = True # Marca que ele já usou essa habilidade
@@ -115,4 +115,3 @@ while heroi.vida > 0 and monstro.vida > 0:
             monstro.atacar(heroi)
 
 # --- FIM DO JOGO ---
-# ... (código do fim do jogo permanece o mesmo) ...
