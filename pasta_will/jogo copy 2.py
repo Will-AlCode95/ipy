@@ -29,7 +29,7 @@ print("3 - Arqueiro")
 opcao = input("Escolha 1, 2 ou 3: ")
 
 if opcao == "1":
-    heroi = Personagem("Guerreiro", 120, 18)
+    heroi = Personagem("Guerreiro", 120, 25)
 elif opcao == "2":
     heroi = Personagem("Mago", 60, 25)
 elif opcao == "3":
